@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Pong</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">MODERN PONG</h1>
+        <p class="game-subtitle">First to 10 points wins the game</p>
+        
+        <div id="gameArea">
+            <div id="player1Paddle" class="paddle"></div>
+            <div id="player2Paddle" class="paddle"></div>
+            <div id="ball"></div>
+        </div>
+        
+        <div class="controls">
+            <div class="score-container">
+                <div class="player-score">
+                    <div class="player-label player1-label">PLAYER 1</div>
+                    <div id="scoreDisplay">
+                        <span class="player1-score">0</span>
+                        <span class="score-divider">:</span>
+                        <span class="player2-score">0</span>
+                    </div>
+                    <div class="player-label player2-label">PLAYER 2</div>
+                </div>
+            </div>
+            <button id="startButton" class="pulse-animation">START GAME</button>
+        </div>
+        
+        <div class="controls-info">
+            <span>Player 1: <span class="key">W</span> <span class="key">S</span></span>
+            <span>Player 2: <span class="key">↑</span> <span class="key">↓</span></span>
+        </div>
+    </div>
+</body>
+</html>
