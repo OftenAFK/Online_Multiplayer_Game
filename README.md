@@ -1,7 +1,23 @@
-Welcome to our web-based multiplayer game project! Developed by our team, this fun and interactive game lets players compete in real-time to collect as many coins as possible.
+# 1v1 Web Game 🎮
 
-🎯 Features
-🌐 Multiplayer Mode – Play with friends or random players online.
-💰 Coin Collection Challenge – Race against others to gather the most coins.
-⚡ Real-Time Interaction – Smooth and responsive gameplay using WebSockets.
-🎮 Simple & Addictive – Easy to play, hard to put down.
+A small but thrilling 1v1 web-based game built using HTML, CSS, and JavaScript. Compete with your friend in a fast-paced match right in your browser!
+
+## 👥 Collaborators
+
+- Himanshu Gupta
+- Itishjot Singh
+- Karan Anjoria
+
+## 🚀 Technologies Used
+
+- HTML5 – for the structure
+- CSS3 – for styling and animations
+- JavaScript – for game logic and interactivity
+
+## 🎯 Features
+
+- Two-player (1v1) local multiplayer gameplay
+- Real-time key press handling
+- Score tracking
+- Simple and intuitive controls
+- Responsive design for better browser compatibility
