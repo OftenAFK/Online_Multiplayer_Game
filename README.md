@@ -21,5 +21,5 @@ A small but thrilling 1v1 web-based game built using HTML, CSS, and JavaScript. 
 - Score tracking
 - Simple and intuitive controls
 - Responsive and Modern design for better browser compatibility
-- Interactive Sounds
-- 
+- Interactive Sound Design
+  
