@@ -20,4 +20,6 @@ A small but thrilling 1v1 web-based game built using HTML, CSS, and JavaScript. 
 - Real-time key press handling
 - Score tracking
 - Simple and intuitive controls
-- Responsive design for better browser compatibility
+- Responsive and Modern design for better browser compatibility
+- Interactive Sound Design
+  
