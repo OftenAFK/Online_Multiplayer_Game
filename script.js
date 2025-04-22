@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add audio elements to the DOM
     insertAudioElements();
 
+
     
     // Initialize audio components
     const sounds = {
@@ -192,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
         startButton.textContent = "RESUME GAME";
         startButton.classList.add("pulse-animation");
 
+
         
         // Pause background music
         sounds.backgroundMusic.pause();
@@ -287,10 +289,14 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
         gameArea.appendChild(winnerAnnouncement);
 
+
         
         // Pause background music
         sounds.backgroundMusic.pause();
     }
+
+})
+
 
 
     // Create particle effect
@@ -613,3 +619,4 @@ document.addEventListener('DOMContentLoaded', function() {
     updatePositions();
     console.log("Game initialized and ready to start");
 });
+
