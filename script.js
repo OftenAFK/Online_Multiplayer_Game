@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add audio elements to the DOM
     insertAudioElements();
-
     
     // Initialize audio components
     const sounds = {
@@ -33,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add audio controls
     insertAudioControls();
     
-
     const toggleAudioBtn = document.getElementById('toggleAudio');
     const volumeSlider = document.getElementById('volumeSlider');
     const volumeContainer = document.querySelector('.volume-slider-container');
@@ -191,7 +189,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         startButton.textContent = "RESUME GAME";
         startButton.classList.add("pulse-animation");
-
         
         // Pause background music
         sounds.backgroundMusic.pause();
@@ -286,12 +283,11 @@ document.addEventListener('DOMContentLoaded', function() {
             <p>Final Score: ${player1Score} - ${player2Score}</p>
         `;
         gameArea.appendChild(winnerAnnouncement);
-
         
-        // Pause background music
-        sounds.backgroundMusic.pause();
+        // Update button
+        startButton.textContent = "PLAY AGAIN";
+        startButton.classList.add("pulse-animation");
     }
-
 
     // Create particle effect
     function createParticles(x, y, color, count = 8) {
