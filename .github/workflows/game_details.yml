@@ -1,0 +1,44 @@
+Project:
+  name: "Multiplayer Game"
+  description: "A small but thrilling 1v1 web-based game built using HTML, CSS, and JavaScript. Compete with your friend in a fast-paced match right in your browser."
+  developed_by: "Binary Bombshells"
+
+contributors:
+  Himanshu Gupta:
+    rollnumber: "2410990347"
+    role: "Game Designer"
+    contributions:
+      - "Worked on CSS and game logic in app.js"
+
+  Itishjot Singh:
+    rollnumber: "2410990366"
+    role: "Game Developer"
+    contributions:
+      - "Implemented index.html and handled interactivity in app.js"
+
+  Karan Anjoria:
+    rollnumber: "2410990373"
+    role: "Game Developer"
+    contributions:
+      - "Worked on CSS styles responsive game layout and in app.js"
+
+features:
+  - name: "1v1 Local Multiplayer"
+    description: "Play head-to-head with a friend on the same keyboard."
+
+  - name: "Glow Hockey"
+    description: "Inspired by the classic arcade game with neon visuals and fast-paced action."
+
+  - name: "Real-Time Key Handling"
+    description: "Smooth player movement using responsive key controls."
+
+  - name: "Score Tracking"
+    description: "Points are tracked for each player until the match ends."
+
+  - name: "Responsive Design"
+    description: "Optimized to work across modern browsers and devices."
+
+technologies:
+  - "HTML5 – for the structure"
+  - "CSS3 – for styling and animations"
+  - "JavaScript – for game logic and interactivity"
